@@ -1,0 +1,27 @@
+# dev environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# git
+.git/
+
+# docs / repo metadata
+docs/
+*.md
+.gitignore
+
+# local config overrides
+local_targets.yaml
